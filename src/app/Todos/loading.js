@@ -1,12 +1,8 @@
 
 "use client"
-// import ClipLoader from 'react-spinners/ClipLoader';
 
 
-import {Circles,  RotatingLines} from  'react-loader-spinner'
-
-
-
+import { RotatingLines} from  'react-loader-spinner'
 
 
 
@@ -15,24 +11,8 @@ function Loading() {
     <div>
       
       <p>Loading the Todos ...</p>
-
-      {/* <div style={{ width: '100px', margin: 'auto', display: 'flex' }}>
-         <ClipLoader color="#52bfd9" size={100}/>
-      </div> */}
-
-      <Circles
-        height="80"
-        width="80"
-        color="#4fa94d"
-        ariaLabel="circles-loading"
-        wrapperStyle={{}}
-        wrapperClass=""
-        visible={true}
-      />
-
       
-
-    <RotatingLines
+     <RotatingLines
         strokeColor="grey"
         strokeWidth="5"
         animationDuration="0.75"

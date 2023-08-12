@@ -1,7 +1,5 @@
 
 async function Todos() {
-
-
   async function fetchTodos() {
     let res = await fetch("https://dummyjson.com/todos");
     const todosData =  await res.json();
@@ -14,7 +12,7 @@ async function Todos() {
     return new Promise(resolve => setTimeout(resolve, ms));
   }
 
-  await wait(3000); // simulate a delay by calling wait to delay for 2 seconds before returning todos
+  await wait(3000); // simulate a delay by calling wait to delay for some seconds before returning todos
 
   return (
     <> 
